@@ -1,6 +1,6 @@
 'use strict';
 
-var schema = {
+module.exports = {
     interval: {
         doc: 'time in milliseconds, used to determine when to check updates for changes',
         default: 600000,
@@ -15,14 +15,4 @@ var schema = {
             }
         }
     }
-};
-
-
-function config_schema(config) {
-    var config = config;
-    return schema;
-}
-
-module.exports = {
-    config_schema: config_schema
 };
