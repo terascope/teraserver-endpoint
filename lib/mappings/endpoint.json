@@ -34,6 +34,10 @@
         "date_range": {
           "type": "string",
           "index": "not_analyzed"
+        },
+        "post_process": {
+          "type": "string",
+          "index": "not_analyzed"
         }
       }
     }
